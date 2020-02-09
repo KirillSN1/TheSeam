@@ -64,10 +64,13 @@ public class MobileInput : MonoBehaviour
 
     public void Jump()
     {
-        player.rb.velocity = Vector2.up * player.JumpingVelocity * 3;
-        if (player.rb.velocity.y < 0)
+        if (player.isGrounded)
         {
-            player.rb.velocity = new Vector2(player.rb.velocity.x, player.rb.velocity.y * player.FallAccelerationValue);
+            player.rb.velocity = Vector2.up * player.JumpingVelocity * 3;
+            if (player.rb.velocity.y < 0)
+            {
+                player.rb.velocity = new Vector2(player.rb.velocity.x, player.rb.velocity.y * player.FallAccelerationValue);
+            }
         }
     }
 

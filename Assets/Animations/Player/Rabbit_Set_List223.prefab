@@ -3940,6 +3940,7 @@ GameObject:
   - component: {fileID: 7892161463221537977}
   - component: {fileID: 7469198570478522717}
   - component: {fileID: 6743888763410134759}
+  - component: {fileID: 7912707715222530497}
   m_Layer: 0
   m_Name: Rabbit_Set_List223
   m_TagString: Untagged
@@ -4083,7 +4084,7 @@ MonoBehaviour:
   isGrounded: 0
   rb: {fileID: 7892161463221537977}
   Anim: {fileID: 4278525735365501869}
-  animoffset: 4.5
+  animoffset: 8
 --- !u!114 &6743888763410134759
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4097,6 +4098,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 7469198570478522717}
+--- !u!114 &7912707715222530497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8993928590757139737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 210d14c95d984074aa9adda434e7207f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &9034702787616144802
 GameObject:
   m_ObjectHideFlags: 0

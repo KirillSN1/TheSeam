@@ -5,7 +5,6 @@ using UnityEngine;
 public class PickUps : MonoBehaviour
 {
     public int Value = 1;
-    [HideInInspector]
     private PlayerBehaviour player;
     [HideInInspector]
     public bool toTarget = false;
